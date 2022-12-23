@@ -1,0 +1,346 @@
+@font-face {
+    font-family: name;
+    src: url(../ObelixProB-cyr.ttf);
+}
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    margin-bottom: 1px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+audio{
+    size: 5px;
+}
+
+.pics{
+   box-shadow: 10px;
+   height: 30px;
+   width: 30px;
+   border-radius: 100px;
+   background-image: url(../copy.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+
+
+.name{
+    
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    animation: space 5s linear infinite;
+    font-size: 15px;
+    font-family: name ;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+}
+
+
+.bg{
+    display: flex;
+    margin-top: 30px;    
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* -webkit-animation: slo 2s linear infinite; */
+    animation: slo 2s linear infinite;
+}
+
+.tree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle{
+    width:0px;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:60px solid green;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.a{
+    margin-top: -15px;
+    font-size: 30px;
+    /* animation: lights 200ms linear infinite; */
+    animation: lights 250ms linear infinite ;
+}
+
+.b{
+    margin-top: -20px;
+    margin-left: -10px;
+    font-size: 30px;
+    /* animation: lights 200ms linear infinite; */
+    animation: lights 300ms linear infinite;
+
+}
+
+.c{
+    margin-top: -20px;
+    margin-left: 70px;
+    font-size: 30px;
+    /* animation: lights 200ms linear infinite; */
+    animation: lights 350ms linear infinite;
+}
+
+.d{
+    margin-top: -20px;
+    margin-left: -10px;
+    font-size: 30px;
+    animation: lights 400ms linear infinite;
+}
+
+.e{
+    margin-top: -20px;
+    margin-left: 120px;
+    font-size: 30px;
+    animation: lights 450ms linear infinite;
+}
+
+.f{
+    margin-top: -20px;
+    margin-left: -10px;
+    font-size: 30px;
+    animation: lights 500ms linear infinite;
+}
+
+.g{
+    margin-top: -20px;
+    margin-left: 170px;
+    font-size: 30px;
+    animation: lights 550ms linear infinite;
+}
+
+.h{
+    margin-top: -20px;
+    margin-left: -11px;
+    font-size: 30px;
+    animation: lights 300ms linear infinite;
+}
+
+.i{
+    margin-top: -20px;
+    margin-left: 210px;
+    font-size: 30px;
+    animation: lights 350ms linear infinite;
+}
+
+.tree1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.halfcircle1{
+    display: flex;
+    height: 60px;
+    width: 100px;
+    background-color: green; 
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    justify-content: space-between;
+    
+}
+
+.tree2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.halfcircle2{
+    display: flex;
+    height: 60px;
+    width: 150px;
+    background-color: green; 
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    justify-content: space-between;
+    margin-top: -5px;
+}
+
+.tree3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.halfcircle3{
+    display: flex;
+    height: 70px;
+    width: 200px;
+    background-color: green; 
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    justify-content: space-between;
+    margin-top: -5px;
+}
+
+.tree4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.halfcircle4{
+    display: flex;
+    height: 70px;
+    width: 240px;
+    background-color: green; 
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    justify-content: space-between;
+    margin-top: -5px;
+}
+
+.stand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.stand1{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background-color: black; 
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.circle1{
+    display: flex;
+    height:25px;
+    width: 90px;
+    background-color: black; 
+    justify-content: space-between;
+    margin-top: 0px;
+    /* border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px; */
+    border-radius: 100px;
+    
+}
+
+@keyframes slo {
+    0%{
+        margin-bottom: 0px;
+        /* margin-right: 0px; */
+    }
+    50%{
+        margin-bottom: 20px;
+        
+    }
+    100%{
+        margin-bottom: 0px;
+        /* margin-right: 0px; */
+    }
+}
+
+@keyframes lights {
+    0%{
+    
+        color: yellow;
+
+    }
+    50%{
+    
+        color: red;
+
+    }
+    100%{
+    
+        color: yellow;
+    }
+}
+
+@media (max-width:769px){
+    .name{
+        font-size:15px;
+        text-align: center;
+    }
+}
+@media (max-width:469px){
+    .name{
+        font-size:12px;
+        text-align: center;
+        animation: space2 5s linear infinite;
+    }
+}
+@media (max-width:320px){
+    .name{
+        font-size:10px;
+        text-align: center;
+        animation: space3 5s linear infinite;
+    }
+}
+@media (max-width:280px){
+    .name{
+        font-size:12px;
+        text-align: center;
+        animation: space4 5s linear infinite;
+    }
+}
+
+@media (max-width:400px){
+    .name{
+        font-size:12px;
+        text-align: center;
+        animation: space5 5s linear infinite;
+    }
+}
+@media (max-width:258px){
+    .name{
+        font-size:12px;
+        text-align: center;
+        animation: space6 5s linear infinite;
+    }
+}
+
+@media(max-width:274px){
+    .bg{
+        animation: slo 2s linear infinite;
+        background-size: 5px;
+
+    }
+}
+
+
+
+
